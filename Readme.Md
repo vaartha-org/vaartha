@@ -37,6 +37,7 @@ We maintain comprehensive documentation for developers and system administrators
 ### Roadmap & Business
 *   **[Master Plan](docs/planning.md)**: The execution roadmap from POC to Enterprise.
 *   **[Business Model](docs/business_model.md)**: Open Core strategy (AGPLv3 + Commercial Plugins).
+*   **[Market Analysis](docs/market_analysis.md)**: Competitor landscape and Funding potential.
 *   **[Legal Rights](docs/project_setup/legal_analysis.md)**: Your rights and obligations.
 
 ---
