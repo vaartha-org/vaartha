@@ -1,45 +1,19 @@
-# Project Charter: VAARTHA (वार्ता)
+# VAARTHA (वार्ता)
 
-**Tagline:** *The Private Thread.*
-**Mission:** To provide a secure, serverless-style communication tool for private networks that functions without the internet, ensuring total data sovereignty.
+> **The Private Thread.** Secure, offline-first communication for sovereign networks.
 
----
+[![License](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](LICENSE)
+[![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/vaartha-org/vaartha)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
-## 1. Documentation & Planning
-
-We have transitioned from a single Readme to a comprehensive documentation suite. Please verify the following documents for detailed execution.
-
-### **[Master Plan & Roadmap](docs/planning.md)**
-Click above for the **Detailed Step-by-Step Execution Plan** (Phases 1-5), including Development, Testing, and Deployment strategies.
-
-### **Project Setup & Strategy**
-### **Project Setup & Strategy**
-*   **[Legal & Business Analysis](docs/project_setup/legal_analysis.md)**: Breakdown of Owner Rights, Business Models, and Obligations.
-*   **[GitHub Setup Guide](docs/project_setup/github_setup_guide.md)**: Step-by-step instructions to create the Org and Repos.
-*   **[Repository Structure](docs/project_setup/repository_structure.md)**: Monorepo strategy details.
-*   **[Open Core Business Model](docs/business_model.md)**: Strategy for monetizing Premium Plugins.
-
-### **Detailed Specifications**
-*   **[Server Installation](docs/server/installation.md)**: Guide for setting up a dedicated Raspberry Pi/Linux server.
-*   **[Architecture Overview](docs/architecture/overview.md)**: The "Triangle" Topology & Privacy Model.
-*   **[Scalability & Modularity](docs/architecture/scalability.md)**: From Home Wi-Fi to City-Wide Networks (Matrix).
-*   **[Distributed Scenarios](docs/architecture/distributed.md)**: Multi-Campus & Public Network Architectures.
-*   **[Android Client](docs/endpoints/android.md)**: Mobile App specs (Local Push).
-*   **[Desktop Client](docs/endpoints/desktop.md)**: Windows/Linux App specs.
-*   **[Plugin Ecosystem](docs/plugins/ecosystem.md)**: How to extend the platform.
-*   **[Whiteboard](docs/plugins/whiteboard.md)**: Collaborative P2P Canvas.
-*   **[AI Insights](docs/plugins/ai_insights.md)**: Offline-First Meeting Intelligence.
+**VAARTHA** is an open-source communication platform designed for **Private Networks (LAN/VPN)**. It functions completely without the internet, ensuring total data sovereignty for organizations, schools, and relief operations.
 
 ---
 
-## 2. The Core Concept
-
-**VAARTHA** is an open-source communication platform designed specifically for **Private Networks (LAN/VPN)**.
-
-### **Key Differentiators**
+## 🚀 Key Differentiators
 
 | Feature | Traditional Tools (Zoom/WhatsApp) | **VAARTHA** |
-| --- | --- | --- |
+| :--- | :--- | :--- |
 | **Connectivity** | Requires Internet | **Works Offline (LAN/WiFi)** |
 | **Data Path** | Cloud Servers | **Peer-to-Peer (Device-to-Device)** |
 | **Privacy** | Data stored by Vendor | **Data never leaves the premises** |
@@ -47,5 +21,38 @@ Click above for the **Detailed Step-by-Step Execution Plan** (Phases 1-5), inclu
 
 ---
 
-## 3. Immediate Action
-You are ready to begin **Phase 1**. Refer to the **[Master Plan](docs/planning.md)** for the first set of tasks regarding Server Infrastructure and the "Ping" Prototype.
+## 📚 Documentation
+
+We maintain comprehensive documentation for developers and system administrators.
+
+### Getting Started
+*   **[Installation Guide](docs/server/installation.md)**: Deploy the Server (Registrar) on Raspberry Pi, Linux, or Docker.
+*   **[GitHub Setup](docs/project_setup/github_setup_guide.md)**: How to set up the repository.
+
+### Architecture
+*   **[Architecture Overview](docs/architecture/overview.md)**: The "Triangle" Topology & Privacy Model.
+*   **[Scalability](docs/architecture/scalability.md)**: From Home Wi-Fi to City-Wide Networks.
+*   **[Plugin Ecosystem](docs/plugins/ecosystem.md)**: Extending Vaartha with Plugins.
+
+### Roadmap & Business
+*   **[Master Plan](docs/planning.md)**: The execution roadmap from POC to Enterprise.
+*   **[Business Model](docs/business_model.md)**: Open Core strategy (AGPLv3 + Commercial Plugins).
+*   **[Legal Rights](docs/project_setup/legal_analysis.md)**: Your rights and obligations.
+
+---
+
+## 🛠️ Contributing
+
+We welcome contributions from the community!
+1.  Read the **[Contributing Guidelines](CONTRIBUTING.md)**.
+2.  Sign the **[CLA](CLA.md)**.
+3.  Check out the `docs/` folder to understand the architecture.
+
+## 📄 License
+
+*   **Core Engine**: [GNU AGPLv3](LICENSE) - Free & Open Source.
+*   **Premium Plugins**: Commercial License (Proprietary).
+
+---
+
+*Copyright &copy; 2026 Suresh. All rights reserved.*

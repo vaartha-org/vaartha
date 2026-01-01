@@ -77,3 +77,20 @@ This document outlines the strategic roadmap for bringing **VAARTHA** to life, f
 *   **Windows**: Build `VaarthaSetup.exe` (NSIS).
 *   **Linux**: Build `Vaartha.AppImage`.
 *   **Android**: Generate `.apk` signed with release key.
+
+## Phase 6: Future Enterprise & Education Features (Post-Launch)
+**Goal:** Match functionalities of Microsoft Teams/Cisco Webex for Schools & Orgs.
+
+### 1. The "Campus Broadcast" System
+*   **Feature**: Admins can push "Rich Cards" (Notifications) to all users or specific groups (e.g., "Bus 5 is late").
+*   **UI**: Dedicated "Notice Board" tab in the app.
+*   **Tech**: Uses SIP `MESSAGE` with custom mime-type `application/vnd.vaartha.broadcast+json`.
+
+### 2. Advanced Classroom Tools
+*   **Breakout Rooms**: Teachers can split a call into N sub-calls and hop between them.
+*   **Virtual Office Hours**: Students see "Open/Closed" slots on a professor's profile and can queue for 1:1s.
+*   **Smart Attendance**: Automated report of who joined, left, and attention span (based on active window focus).
+
+### 3. Moderation & Compliance
+*   **Profanity Filter**: Local AI intercepts offensive text before sending.
+*   **Shift Management**: "Do Not Disturb" forced on employees outside working hours (Right to Disconnect).

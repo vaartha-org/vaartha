@@ -26,6 +26,8 @@ We follow the **Android Model** (AOSP vs. Google Play Services) or **Mattermost 
     *   **AI Insights**: The Whisper/LLM pipeline.
     *   **LDAP/AD Sync**: Integration with Corporate Active Directory.
     *   **Audit Logs**: Compliance reporting tools.
+    *   **Broadcast Engine**: Campus-wide notification system with "Read Receipts".
+    *   **Classroom Suite**: Breakout rooms, Smart Attendance, and Virtual Office Hours.
 
 ## 2. Technical Implementation: Dynamic Linking
 
