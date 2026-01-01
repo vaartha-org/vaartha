@@ -13,6 +13,8 @@ We have transitioned from a single Readme to a comprehensive documentation suite
 Click above for the **Detailed Step-by-Step Execution Plan** (Phases 1-5), including Development, Testing, and Deployment strategies.
 
 ### **Project Setup & Strategy**
+### **Project Setup & Strategy**
+*   **[Legal & Business Analysis](docs/project_setup/legal_analysis.md)**: Breakdown of Owner Rights, Business Models, and Obligations.
 *   **[GitHub Setup Guide](docs/project_setup/github_setup_guide.md)**: Step-by-step instructions to create the Org and Repos.
 *   **[Repository Structure](docs/project_setup/repository_structure.md)**: Monorepo strategy details.
 *   **[Open Core Business Model](docs/business_model.md)**: Strategy for monetizing Premium Plugins.
